@@ -1,0 +1,31 @@
+{
+  "name": "utility-hub",
+  "version": "1.0.0",
+  "description": "Utility Hub is a universal utility library, which contains countless number of utility functions and classes for JavaScript projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eTEAM-Technology/utility-hub.git"
+  },
+  "keywords": [
+    "utility",
+    "hub",
+    "functions",
+    "classes",
+    "javascript",
+    "package"
+  ],
+  "author": "Mohammed Odunayo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eTEAM-Technology/utility-hub/issues"
+  },
+  "homepage": "https://github.com/eTEAM-Technology/utility-hub#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
