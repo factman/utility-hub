@@ -333,5 +333,4 @@ ASALocalRun/
 .git
 .vscode
 package-lock.json
-test/
 config/
