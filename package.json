@@ -4,7 +4,8 @@
   "description": "Utility Hub is a universal utility library, which contains countless number of utility functions and classes for JavaScript projects.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --reporter dot",
+    "debugging": "mocha --reporter min --watch ./test ./"
   },
   "repository": {
     "type": "git",
@@ -27,7 +28,6 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "eslint": "^5.4.0",
-    "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
     "mocha": "^5.2.0"
   },

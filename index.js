@@ -5,7 +5,7 @@
  * @Email: factman60@gmail.com
  * @Date: 2018-08-24 00:16:08
  * @Last Modified by: Mohammed Odunayo
- * @Last Modified time: 2018-08-25 17:08:07
+ * @Last Modified time: 2018-08-27 00:17:40
  */
 
 /**
@@ -15,9 +15,23 @@
  * @returns {string} string
  */
 module.exports = {
-  capitalize(str) {
-    const arr = str.split('');
-    arr[0] = arr[0].toUpperCase();
-    return arr.join('');
-  },
+    capitalize(str) {
+        let arr;
+        switch (str.split("").includes(" ")) {
+        case false:
+            arr = str.split("");
+            arr[0] = arr[0].toUpperCase();
+            return arr.join("");
+        case true:
+            arr = str.split(" ");
+            arr = arr.map(((item) => {
+                const arrChar = item.split("");
+                arrChar[0] = arrChar[0].toUpperCase();
+                return arrChar.join("");
+            }));
+            return arr.join(" ");
+        default:
+            return null;
+        }
+    },
 };
