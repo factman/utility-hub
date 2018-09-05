@@ -5,7 +5,7 @@
  * @Email: factman60@gmail.com
  * @Date: 2018-08-24 00:16:08
  * @Last Modified by: Mohammed Odunayo
- * @Last Modified time: 2018-08-27 00:17:40
+ * @Last Modified time: 2018-09-05 07:28:10
  */
 
 /**
@@ -14,24 +14,11 @@
  * @param  {string} str The string to capitalize.
  * @returns {string} string
  */
+
+const { capitalize } = require("./src/string");
+
 module.exports = {
-    capitalize(str) {
-        let arr;
-        switch (str.split("").includes(" ")) {
-        case false:
-            arr = str.split("");
-            arr[0] = arr[0].toUpperCase();
-            return arr.join("");
-        case true:
-            arr = str.split(" ");
-            arr = arr.map(((item) => {
-                const arrChar = item.split("");
-                arrChar[0] = arrChar[0].toUpperCase();
-                return arrChar.join("");
-            }));
-            return arr.join(" ");
-        default:
-            return null;
-        }
+    String: {
+        capitalize,
     },
 };
