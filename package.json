@@ -4,7 +4,7 @@
   "description": "Utility Hub is a universal utility library, which contains countless number of utility functions and classes for JavaScript projects.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter dot",
+    "test": "mocha",
     "debugging": "mocha --reporter min --watch ./test ./"
   },
   "repository": {
