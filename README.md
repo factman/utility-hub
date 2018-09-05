@@ -9,7 +9,7 @@ Utility Hub is a universal utility library, which contains countless number of u
 ### Test
 > ``` npm test ```
 ### Debug
-> ``` npm debugging ```
+> ``` npm run debugging ```
 ## List of Available Functions
 ### String
   - ```capitalize(str)```
