@@ -34,8 +34,8 @@ Utility Hub is a universal utility library, which contains countless number of u
 - ```capitalize(str)```
   * @description Returns a Capitalized string.
   * @example\
-    capitalize("string") will return "String"\
-    capitalize("title case string") will return "Title Case String".
+   * > Ustring.capitalize("string") will return "String"\
+   Ustring.capitalize("title case string") will return "Title Case String".
   * @param  {string} str The string to capitalize.
   * @returns {string} string
 
@@ -48,5 +48,5 @@ Utility Hub is a universal utility library, which contains countless number of u
  * @Email: factman60@gmail.com
  * @Date: 2018-09-05 11:50:08
  * @Last Modified by: Mohammed Odunayo
- * @Last Modified time: 2018-09-05 11:56:40
+ * @Last Modified time: 2018-09-05 12:04:18
  */
