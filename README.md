@@ -1,6 +1,10 @@
 # utility-hub
 Utility Hub is a universal utility library, which contains countless number of utility functions and classes for JavaScript projects.
 
+## Getting Started
+### Install
+> ``` npm install utility-hub ```
+
 ---
 # Table of Content
 - [utility-hub](#utility-hub)
@@ -13,17 +17,6 @@ Utility Hub is a universal utility library, which contains countless number of u
   - [List of Available Functions](#list-of-available-functions)
     - [String Utility Functions](#string-utility-functions)
   - [Contributors](#contributors)
-
----
-## Getting Started
-### Clone
-> ``` git clone https://github.com/eTEAM-Technology/utility-hub.git ```
-### Install
-> ``` npm install ``` or ``` sudo npm install ```
-### Test
-> ``` npm test ```
-### Debug
-> ``` npm run debugging ```
 
 ---
 ## List of Available Functions

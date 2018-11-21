@@ -1,6 +1,6 @@
 {
   "name": "utility-hub",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Utility Hub is a universal utility library, which contains countless number of utility functions and classes for JavaScript projects.",
   "main": "index.js",
   "scripts": {
