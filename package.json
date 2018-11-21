@@ -4,6 +4,7 @@
   "description": "Utility Hub is a universal utility library, which contains countless number of utility functions and classes for JavaScript projects.",
   "main": "index.js",
   "scripts": {
+    "start": "node ./index.js",
     "test": "mocha",
     "debugging": "mocha --reporter min --watch ./test ./"
   },
@@ -25,11 +26,6 @@
     "url": "https://github.com/eTEAM-Technology/utility-hub/issues"
   },
   "homepage": "https://github.com/eTEAM-Technology/utility-hub#readme",
-  "devDependencies": {
-    "chai": "^4.1.2",
-    "eslint": "^5.4.0",
-    "eslint-plugin-import": "^2.14.0",
-    "mocha": "^5.2.0"
-  },
+  "devDependencies": {},
   "dependencies": {}
 }

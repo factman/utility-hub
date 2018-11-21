@@ -15,7 +15,7 @@ module.exports = {
     * @param  {string} str The string to capitalize.
     * @returns {string} string
     */
-    capitalize(str) {
+    capitalize: function(str) {
         let arr;
         switch (str.split("").includes(" ")) {
         case false:
