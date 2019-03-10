@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node ./index.js",
     "test": "mocha",
-    "debugging": "mocha --reporter min --watch ./test ./"
+    "debugging": "mocha --reporter min --watch ./test ./",
+    "build": "node ./index.js"
   },
   "repository": {
     "type": "git",
