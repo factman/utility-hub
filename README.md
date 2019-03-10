@@ -1,4 +1,6 @@
 # utility-hub
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffactman%2Futility-hub.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffactman%2Futility-hub?ref=badge_shield)
+
 Utility Hub is a universal utility library, which contains countless number of utility functions and classes for JavaScript projects.
 
 ## Getting Started
@@ -40,3 +42,6 @@ Utility Hub is a universal utility library, which contains countless number of u
  * @Last Modified by: Mohammed Odunayo
  * @Last Modified time: 2018-09-05 12:04:18
  */
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffactman%2Futility-hub.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffactman%2Futility-hub?ref=badge_large)
